@@ -2590,8 +2590,7 @@ void CMenu::Indicators()
 			H::Draw->String(H::Fonts->Get(EFonts::ESP_SMALL), x, y + (offset++ * tall), clr, POS_DEFAULT, "ping %d", pPR->GetPing(pLocal->entindex()));
 		}
 	}
-	H::Draw->String(H::Fonts->Get(EFonts::ESP), x, y + (offset++ * tall), clr, POS_DEFAULT, "BABY.TECH [dadly]", static_cast<int>(1.0f / I::GlobalVars->absoluteframetime));
-	//H::Draw->String(H::Fonts->Get(EFonts::ESP_SMALL), x, y + (offset++ * tall), clr, POS_DEFAULT, "choked %d", I::ClientState->chokedcommands);
+	H::Draw->String(H::Fonts->Get(EFonts::ESP), 1720, 10, clr, POS_DEFAULT, "BABY.TECH [alphakenny]", static_cast<int>(1.0f / I::GlobalVars->absoluteframetime));
 	H::Draw->String(H::Fonts->Get(EFonts::ESP_SMALL), x, y + (offset++ * tall), clr, POS_DEFAULT, "build %hs", __DATE__/* " " __TIME__*/);
 }
 
